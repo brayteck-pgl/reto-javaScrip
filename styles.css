@@ -113,6 +113,29 @@ button:active {
   box-shadow: 0 14px 26px rgba(220, 38, 38, 0.32);
 }
 
+.mensaje {
+  display: none;
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.mensaje.error {
+  display: block;
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.mensaje.ok {
+  display: block;
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
 @keyframes aparecer {
   from {
     opacity: 0;
