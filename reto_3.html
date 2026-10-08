@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordenar lista de nombres</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>Ordenar lista de nombres</h1>
+
+    <form id="formulario">
+      <label for="nombre">Nombre:</label>
+
+      <div class="controles">
+        <input id="nombre" type="text" placeholder="Escribe un nombre" autocomplete="off">
+        <button type="submit">Agregar</button>
+      </div>
+    </form>
+
+    <label for="lista">Nombres ordenados:</label>
+    <textarea id="lista" rows="8" readonly></textarea>
+    <button type="button" id="limpiar">Limpiar</button>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
